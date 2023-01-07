@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+/* heading section */
+header{
+    width: 100%;
+    height: 809px;
+    background-image: url(../images/banner/banner2.png);
+}
+.header{
+    float: right;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 100px;
+    width:525px;
+    height: 180px;
+}
+
+.right{
+    margin-left: 150px;
+}
+.header-description{
+width: 350px;
+font-size: 20px;
+margin-bottom: 50px;
+
+}
+.text-primary{
+    color: #FFFFFF;
+    
+}
+.btn-primary{
+    padding:18px 35px;
+    border:0px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    height:54px;
+    background-color: #FD6E0A;
+    margin-left: 110px;
+    color:white;
+}
+.failure{
+    height:724px;
+    width:1072px;
+    margin-top:110px;
+    margin-bottom: 10px;
+}
+.failure-container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom:50px;
+    padding: 5px 0px;
+}
+.failure-description{
+    margin-bottom: 80px;
+    font-size:20px;
+    height: 35px;
+    margin-top: 20px;
+}
+.failure-list {
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+/* my plan */
+.my-plan{
+    margin-top: 130px;
+    margin-bottom:130px;
+}
+.plan-img{
+    margin-bottom: 10px;
+}
+.my-plan-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 23px;
+    
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+/* gradient image */
+.gradient-img{
+    margin-bottom: 60px;
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/watch.png),url(../images/gradient3.png);
+    background-blend-mode:overlay;
+}
+.mindset{
+    float:left;
+    padding:60px 600px 60px 65px;
+    color:white;
+    font-weight: 700;
+    font-size: 23px;
+   
+}
+
+.mindset h3{
+    margin-bottom: 10px;
+}
+.m-btn{
+    margin-left:3px;
+    border: 0px;
+    border-radius: 7px;
+    padding:15px 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#FD6E0A;
+    background-color:#FFFFFF;
+
+}
+/* project showcase */
+.my-project-title{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration-line:underline ;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.project{
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.5);
+    width: 300px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.project > img{
+    border: 0;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.project-title{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.project-description{
+    text-align: center;
+    font-size: 17px;
+    padding:2px;
+    margin-bottom: 8px;
+}
+.link-btn a {
+    text-decoration: none;
+}
+.link-btn{
+    border: none;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    padding:10px 15px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color:rgba(153, 205, 50, 0.37);
+    border-radius: 10px;
+}
+.link-btn:hover{
+    background-color:#FD6E0A;
+
+}
+/* footer section */
+footer{
+width: 100%;
+height: 570px;
+background-color: black;
+}
+.future{
+    margin-top: 150px;
+    color:white;
+    margin-left: 200px;
+}
+.future-title{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 10px 2px;
+}
+.future-description,.future-email,.future-number{
+    font-size: 18px;
+    padding:10px 0px;
+    margin-bottom: 10px;
+}
+.footer-container {
+    display: flex;
+    gap:500px;
+}
+input{
+    height: 40px;
+    width: 325px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+.subscribe{
+    margin-top: 150px;
+    margin-right: 1000px;
+ }
+ .subscribe h3{
+    color:white;
+    margin-bottom: 20px;
+}
