@@ -67,9 +67,10 @@ margin-bottom: 50px;
 }
 .failure-title{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 40px;
     margin-bottom:50px;
     padding: 5px 0px;
+
 }
 .failure-description{
     margin-bottom: 80px;
@@ -121,7 +122,6 @@ margin-bottom: 50px;
     color:white;
     font-weight: 700;
     font-size: 23px;
-   
 }
 
 .mindset h3{
